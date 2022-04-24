@@ -1,20 +1,25 @@
-#duymeler{
-    padding: 15px;
-    border-bottom: 1px solid rgb(177 158 158 / 37%);
-    border-top: 1px solid rgb(177 158 158 / 37%);
-    margin: 6px;
-}
-.carousel{
-    margin-top: 12px;
-    width: 75%;
-    margin: auto;
-}
-.carousel-indicators button{
-    margin-left: 10px;
-    height: 10px;
-}
 
-.carousel-control-next, .carousel-control-prev{
-    width: 9% !important;
-    background-color: coral;
+.carousel{
+    width: 75%;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators .active {
+    opacity: 1;
 }
