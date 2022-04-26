@@ -1,50 +1,44 @@
-$(document).ready(function () {
-  $("#hesabagiris").submit(function (e) {
-    if ($("#istifadeciAdi").val() == "") {
-      $("#istifadeciAdi").addClass("is-invalid")
+$(document).ready(function() {
+  $("#hesabagiris").submit(function(e) {
+    e.preventDefault();
+    if ($("#istifadeciadi").val() == "") {
+      $("#istifadeciadi").addClass("is-invalid")
     }
-    if ($("#sifre").val() == "") {
-      $("#sifre").addClass("is-invalid")
+    if ($("#pass").val() == "") {
+      $("#pass").addClass("is-invalid")
     }
   })
-  $("#istifadeciAdi").keyup(function () {
-    if ($("#istifadeciAdi").val() != "") {
-      $("#istifadeciAdi").removeClass("is-invalid")
-      $("#istifadeciAdi").addClass("is-valid")
+  $("#istifadeciadi").blur(function() {
+    if ($("#istifadeciadi").val() != "") {
+      $("#istifadeciadi").removeClass("is-invalid")
+      $("#istifadeciadi").addClass("is-valid")
     }
 
   })
-  $("#sifre").keyup(function () {
-    if ($("#sifre").val() != "") {
-      $("#sifre").removeClass("is-invalid")
-      $("#sifre").addClass("is-valid")
+  $("#pass").blur(function () {
+    if ($("#pass").val() != "") {
+      $("#pass").removeClass("is-invalid")
+      $("#pass").addClass("is-valid")
     }
   })
-  $("#daxilOl").submit(function () {
-    let username = $("#istifadeciAdi").val();
-    let pass = $("#sifre").val();
-    for (let i = 1; i <= Number(localStorage.getItem("ID")); i++) {
-      if (username == localStorage.getItem(`user${i}-username`)&&pass == localStorage.getItem(`user${i}-password`)) {
-          window.location.assign("index.html");
+  var yoxla = false;
+  $("#hesabagiris").submit(function(e) {
+      e.preventDefault();
+      var istifadeAdi = $("#istifadeciadi").val();
+      var sifre = $("#pass").val();
+      var local = Number(localStorage.getItem(`ID`));
+      for (var i = 0; i <= local; i++) {
+          if (istifadeAdi == localStorage.getItem(`user${i}-username`)) {
+              if (sifre == localStorage.getItem(`user${i}-password`)) {
+                  localStorage.setItem(`name`,localStorage.getItem(`user${i}-username`))
+                  yoxla = true;
+                  window.location.assign("heseab.html");
+              }
+          }
       }
-    }
-
-
-    //  var cvb=true;
-    //       // local-da axtarish
-    //       if (cvb == false) {
-    //           for (let i = 1; i <= Number(localStorage.getItem("ID")); i++){
-    //               if (username == localStorage.getItem(`user${i}-username`)) {
-    //                   cvb = true;
-    //                   if (pass == localStorage.getItem(`user${i}-password`)) {
-    //                       window.location.assign("index.html");
-    //                   }
-    //               }
-    //           }
-    //       }
-    //       if(cvb == false){
-    //           alert("bele istifadeci yoxdur");
-    //       }
-  });
-
+    
+      if(!yoxla){
+          alert("bele bir istifadeci yoxdur!!!")
+      }
+  })
 });
