@@ -1,0 +1,100 @@
+
+.content2 #search {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.col-12{
+    
+    display: inline-block;
+}
+input{
+    width: 293px;
+    height: 35px;
+}
+
+.container .category{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #607d8b;;
+}
+
+.container .category .item{
+    border-bottom: 1px solid #607d8b;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.content2 .category .item:last-child{
+    border: none;
+}
+.stock {
+    background-image: url("/img/bg/paper.gif");
+    overflow: hidden;
+}
+
+.stock .col-3 {
+    padding: 10px;
+}
+
+.stock .stock-items {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.stock .stock-items img {
+    width: 100%;
+}
+.row1{
+    float: left;
+}
+
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    display: inline-block;
+    width: 24.99%;
+}
+.col-4 {
+    width: 33.32%;
+}
+.col-5 {
+    width: 41.65%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.35%;
+}
+.col-8 {
+    width: 66.68%;
+}
+.col-9 {
+    width: 75.01%;
+}
+.col-10 {
+    width: 83.34%;
+}
+.col-11 {
+    width: 91.67%;
+}
+.col-12 {
+    width: 100%;
+}
+
+
+
+
+

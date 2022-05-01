@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="js/komputerlerim.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Kompüterlərim</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <hr>
+    <div>
+      <a class="btn btn-warning" href="heseab.html">Əsas səhifə</a>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        data-bs-whatever="@mdo">Yeni Komputer</button>
+      <input type="search" class="ms-auto" placeholder="Search">
+    </div>
+    <hr>
+    <!-- modal -->
+    <div class="modal fade bd-example-modal-lg " id="exampleModal" tabindex="-1" role="dialog"
+      aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="background-color: rgba(117, 232, 232, 0.981);">
+          <div class="modal-header">
+            <h5 class="modal-title" style="  margin-left: 37%;" id="exampleModalLongTitle">Yeni Komputer</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="    display: inherit;">
+            <div class="float-start"class="form-control" style=" width: 210px; margin-right: 200px;">
+            <label for="">Kateqoriya</label>
+            <input type="text" name=""class="form-control" id="kateqoriya">
+            <label for="">Ad</label>
+            <input type="text" name=""class="form-control" id="ad">
+            <label for="">qiymeti</label>
+            <input type="number" name="" class="form-control"id="qiymet">
+            <label for="">Tesviri</label>
+            <input type="text" name="" class="form-control" id="tesviri">
+            <label for="">Yenidir?</label>
+            <input type="text" name=""class="form-control" id="yoxla">
+            <label for="">Şəkil secin</label>
+            <input type="file" name=""class="form-control" id="sekli">
+          </div>
+          <div class="float-end" style=" width: 210px;">
+            <label for="">"Əməli Yaddaş</label>
+            <input type="number"class="form-control" name="" id="eyaddas">
+            <label for="">Merkezi prosessor</label>
+            <input type="enter"class="form-control" name="" id="prosessor">
+            <label for="">Daimi Yaddaş(GB)</label>
+            <input type="number" class="form-control"name="" id="dyaddas">
+            <label for="">Daimi Yaddaş Tipi</label>
+            <input type="text" class="form-control" name="" id="tip">
+            <label for="">Əməliyyat sistemi</label>
+            <input type="enter" class="form-control" name="" id="sistem">
+            <label for="">Videokart(GB)</label>
+            <input type="number" class="form-control" name="" id="video">
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Melumatlari Sifirla</button>
+            <a class="btn btn-primary" id="elaveEt">Elave Et</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- table -->
+    <table class="table">
+      <caption class="avaible">No data avaible in table</caption>
+      <caption>List of computer</caption>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Ad</th>
+          <th scope="col">Şəkil</th>
+          <th scope="col">Qiymət</th>
+          <th scope="col">Əməliyyatlar</th>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+
+      </tbody>
+
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
