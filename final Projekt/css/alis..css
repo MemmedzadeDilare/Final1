@@ -32,7 +32,7 @@ input{
     border: none;
 }
 .stock {
-    background-image: url("/img/bg/paper.gif");
+
     overflow: hidden;
 }
 
@@ -51,6 +51,10 @@ input{
 }
 .row1{
     float: left;
+}
+button{
+    background-color: #1631f0;
+    color: white;
 }
 
 

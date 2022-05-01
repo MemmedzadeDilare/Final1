@@ -18,6 +18,8 @@ for (var i = 0; i < marka.length; i++) {
         for (var i = 0; i < 9; i++) {
             var col3 = document.createElement("div");
             col3.classList.add("col-3");
+            var button =document.createElement("button")
+            button.innerHTML="etrafli"
             var stockItems = document.createElement("div");
             stockItems.classList.add("stock-items");
             var img = document.createElement("img");
@@ -38,6 +40,7 @@ for (var i = 0; i < marka.length; i++) {
             stockItems.appendChild(p3);
             stockItems.appendChild(p4);
             stockItems.appendChild(p5);
+            stockItems.appendChild(button)
             col3.appendChild(stockItems);
             stock.appendChild(col3);
 
@@ -48,6 +51,8 @@ for (var i = 0; i < marka.length; i++) {
 for (var i = 0; i < 9; i++) {
     var col3 = document.createElement("div");
     col3.classList.add("col-3");
+    var button =document.createElement("button")
+    button.innerHTML="etrafli"
     var stockItems = document.createElement("div");
     stockItems.classList.add("stock-items");
     var img = document.createElement("img");
@@ -68,6 +73,7 @@ for (var i = 0; i < 9; i++) {
     stockItems.appendChild(p3);
     stockItems.appendChild(p4);
     stockItems.appendChild(p5);
+    stockItems.appendChild(button)
     col3.appendChild(stockItems);
     stock.appendChild(col3);
 
@@ -96,6 +102,8 @@ input.addEventListener("keyup", function (e) {
                     for (var i = 0; i < 9; i++) {
                         var col3 = document.createElement("div");
                         col3.classList.add("col-3");
+                        var button =document.createElement("button")
+                        button.innerHTML="etrafli"
                         var stockItems = document.createElement("div");
                         stockItems.classList.add("stock-items");
                         var img = document.createElement("img");
@@ -116,6 +124,7 @@ input.addEventListener("keyup", function (e) {
                         stockItems.appendChild(p3);
                         stockItems.appendChild(p4);
                         stockItems.appendChild(p5);
+                        stockItems.appendChild(button);
                         col3.appendChild(stockItems);
                         stock.appendChild(col3);
                     }
@@ -140,6 +149,8 @@ input.addEventListener("keyup", function (e) {
                 for (var i = 0; i < 9; i++) {
                     var col3 = document.createElement("div");
                     col3.classList.add("col-3");
+                    var button =document.createElement("button")
+                    button.innerHTML="etrafli"
                     var stockItems = document.createElement("div");
                     stockItems.classList.add("stock-items");
                     var img = document.createElement("img");
@@ -160,6 +171,7 @@ input.addEventListener("keyup", function (e) {
                     stockItems.appendChild(p3);
                     stockItems.appendChild(p4);
                     stockItems.appendChild(p5);
+                    stockItems.appendChild(button)
                     col3.appendChild(stockItems);
                     stock.appendChild(col3);
 
@@ -187,6 +199,8 @@ input.addEventListener("keyup", function (e) {
                 for (var i = 0; i < 4; i++) {
                     var col3 = document.createElement("div");
                     col3.classList.add("col-3");
+                    var button =document.createElement("button")
+                    button.innerHTML="etrafli"
                     var stockItems = document.createElement("div");
                     stockItems.classList.add("stock-items");
                     var img = document.createElement("img");
@@ -208,6 +222,7 @@ input.addEventListener("keyup", function (e) {
           
                     stockItems.appendChild(p4);
                     stockItems.appendChild(p5);
+                    stockItems.appendChild(button)
                     col3.appendChild(stockItems);
                     stock.appendChild(col3);
 
