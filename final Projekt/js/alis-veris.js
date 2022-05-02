@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var marka = ["asus", "dell", "hp", "lenovo", "acer"];
 var lu = document.querySelector(".row1 .category");
 var input = document.querySelector("#search");
@@ -841,7 +842,8 @@ for (var i = 0; i < 9; i++) {
     var col3 = document.createElement("div");
     col3.classList.add("col-3");
     var button = document.createElement("button")
-    button.innerHTML = "etrafli"
+    button.innerHTML = "etrafli";
+    button.classList.add("button");
     var stockItems = document.createElement("div");
     stockItems.classList.add("stock-items");
     var img = document.createElement("img");
@@ -867,6 +869,14 @@ for (var i = 0; i < 9; i++) {
     stock.appendChild(col3);
 
 }
+$(".button").click(function(){
+    $(".popup").removeClass("d-none");
+
+    
+})
+$("#exit").click(function(){
+    $(".popup").addClass("d-none");
+})
 var stock_div = document.querySelectorAll(".stock .col-3");
 
 input.addEventListener("keyup", function (e) {
@@ -1023,6 +1033,7 @@ input.addEventListener("keyup", function (e) {
     }
 
 
+});
 });
 
 
