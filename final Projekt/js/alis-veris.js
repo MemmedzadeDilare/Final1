@@ -932,6 +932,7 @@ input.addEventListener("keyup", function (e) {
 
             }
         }
+      
 
         if (lu.children.length == 0) {
             var li = document.createElement("li");
@@ -993,6 +994,7 @@ input.addEventListener("keyup", function (e) {
                 for (var i = 0; i < stock_div.length; i++) {
                     stock.children[0].remove();
                 }
+          
                 var content = String(this.innerText);
                 content = content.toLowerCase();
                 for (var i = 0; i < 4; i++) {
@@ -1027,6 +1029,13 @@ input.addEventListener("keyup", function (e) {
 
 
                 }
+                $(".button").click(function(){
+                    $(".popup").removeClass("d-none");
+                   
+                })
+                $("#exit").click(function(){
+                    $(".popup").addClass("d-none");
+                })
             })
         }
 
