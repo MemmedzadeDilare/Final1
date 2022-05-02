@@ -1,4 +1,4 @@
-var marka = ["asus", "dell", "hp", "lenovo","acer", "LG", "Huawei","Samsung","Sony"];
+var marka = ["asus", "dell", "hp", "lenovo", "acer"];
 var lu = document.querySelector(".row1 .category");
 var input = document.querySelector("#search");
 var stock = document.querySelector(".stock");
@@ -134,218 +134,223 @@ var acer = [{
     daimitipi: "SSD",
     emeliyyat: "win 10",
     GPU: "Intel Iris Xe Graphics"
-}, 
+},
 ];
 var asus = [{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 1 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 2 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 3 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 4 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 5 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 6 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 7 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 8 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 9 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
+    GPU: ""
+},
+{
     ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
+    tesvir: "Hp 10 desc",
+    qiymet: "76757 AZN",
+    telefon: "055-867-74576",
     yeni: "bəli",
     əməliyaddaş: "16GB",
     CPU: "Core i9",
     daimiyaddaş: "500GB",
     daimitipi: "SSD",
     emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
-    ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
-    yeni: "bəli",
-    əməliyaddaş: "16GB",
-    CPU: "Core i9",
-    daimiyaddaş: "500GB",
-    daimitipi: "SSD",
-    emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
-    ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
-    yeni: "bəli",
-    əməliyaddaş: "16GB",
-    CPU: "Core i9",
-    daimiyaddaş: "500GB",
-    daimitipi: "SSD",
-    emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
-    ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
-    yeni: "bəli",
-    əməliyaddaş: "16GB",
-    CPU: "Core i9",
-    daimiyaddaş: "500GB",
-    daimitipi: "SSD",
-    emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
-    ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
-    yeni: "bəli",
-    əməliyaddaş: "16GB",
-    CPU: "Core i9",
-    daimiyaddaş: "500GB",
-    daimitipi: "SSD",
-    emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
-    ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
-    yeni: "bəli",
-    əməliyaddaş: "16GB",
-    CPU: "Core i9",
-    daimiyaddaş: "500GB",
-    daimitipi: "SSD",
-    emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
-    ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
-    yeni: "bəli",
-    əməliyaddaş: "16GB",
-    CPU: "Core i9",
-    daimiyaddaş: "500GB",
-    daimitipi: "SSD",
-    emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, {
-    ad: "asus",
-    tesvir: "tesvir",
-    qiymet: "2780 AZN",
-    telefon: "055-867-3567",
-    yeni: "bəli",
-    əməliyaddaş: "16GB",
-    CPU: "Core i9",
-    daimiyaddaş: "500GB",
-    daimitipi: "SSD",
-    emeliyyat: "win 10",
-    GPU: "Intel Iris Xe Graphics"
-}, ];
+    GPU: ""
+}
+
+];
 var dell = [
     {
         ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
+        tesvir: "Hp 1 decs",
+        qiymet: "75722 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    },
+    {
+        ad: "dell",
+        tesvir: "Hp 2 decs",
+        qiymet: "75722 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    },
+    {
+        ad: "dell",
+        tesvir: "Hp 3 decs",
+        qiymet: "75722 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    }, 
+    {
+        ad: "dell",
+        tesvir: "Hp 3 decs",
+        qiymet: "75722 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    },
+    {
+        ad: "dell",
+        tesvir: "Hp 4 decs",
+        qiymet: "75722 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    },
+    {
+        ad: "dell",
+        tesvir: "Hp 5 decs",
+        qiymet: "75722 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    },
+    {
+        ad: "dell",
+        tesvir: "Hp 6 decs",
+        qiymet: "75722 AZN",
         telefon: "055-867-3567",
         yeni: "bəli",
         əməliyaddaş: "16GB",
@@ -356,8 +361,8 @@ var dell = [
         GPU: "Intel Iris Xe Graphics"
     },{
         ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
+        tesvir: "Hp 7 decs",
+        qiymet: "75722 AZN",
         telefon: "055-867-3567",
         yeni: "bəli",
         əməliyaddaş: "16GB",
@@ -368,8 +373,21 @@ var dell = [
         GPU: "Intel Iris Xe Graphics"
     },{
         ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
+        tesvir: "Hp 8 decs",
+        qiymet: "75722 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    },
+    {
+        ad: "dell",
+        tesvir: "Hp 9 decs",
+        qiymet: "75722 AZN",
         telefon: "055-867-3567",
         yeni: "bəli",
         əməliyaddaş: "16GB",
@@ -380,260 +398,8 @@ var dell = [
         GPU: "Intel Iris Xe Graphics"
     },{
         ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },{
-        ad: "dell",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
+        tesvir: "Hp 10 decs",
+        qiymet: "75722 AZN",
         telefon: "055-867-3567",
         yeni: "bəli",
         əməliyaddaş: "16GB",
@@ -643,7 +409,7 @@ var dell = [
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
     }
-]
+] 
 var lenovo = [
     {
         ad: "lenovo",
@@ -831,7 +597,7 @@ var lenovo = [
         GPU: "Intel Iris Xe Graphics"
     }
 ]
-var hp =[
+var hp = [
     {
         ad: "hp",
         tesvir: "tesvir",
@@ -844,67 +610,7 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
-        ad: "hp",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },  {
-        ad: "hp",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },  {
-        ad: "hp",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },  {
-        ad: "hp",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },  {
-        ad: "hp",
-        tesvir: "tesvir",
-        qiymet: "2780 AZN",
-        telefon: "055-867-3567",
-        yeni: "bəli",
-        əməliyaddaş: "16GB",
-        CPU: "Core i9",
-        daimiyaddaş: "500GB",
-        daimitipi: "SSD",
-        emeliyyat: "win 10",
-        GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -928,7 +634,7 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -940,7 +646,7 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -952,7 +658,7 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -964,7 +670,7 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -976,7 +682,7 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -988,7 +694,7 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -1000,7 +706,67 @@ var hp =[
         daimitipi: "SSD",
         emeliyyat: "win 10",
         GPU: "Intel Iris Xe Graphics"
-    },  {
+    }, {
+        ad: "hp",
+        tesvir: "tesvir",
+        qiymet: "2780 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    }, {
+        ad: "hp",
+        tesvir: "tesvir",
+        qiymet: "2780 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    }, {
+        ad: "hp",
+        tesvir: "tesvir",
+        qiymet: "2780 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    }, {
+        ad: "hp",
+        tesvir: "tesvir",
+        qiymet: "2780 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    }, {
+        ad: "hp",
+        tesvir: "tesvir",
+        qiymet: "2780 AZN",
+        telefon: "055-867-3567",
+        yeni: "bəli",
+        əməliyaddaş: "16GB",
+        CPU: "Core i9",
+        daimiyaddaş: "500GB",
+        daimitipi: "SSD",
+        emeliyyat: "win 10",
+        GPU: "Intel Iris Xe Graphics"
+    }, {
         ad: "hp",
         tesvir: "tesvir",
         qiymet: "2780 AZN",
@@ -1024,13 +790,25 @@ for (var i = 0; i < marka.length; i++) {
         for (var i = 0; i < stock_div.length; i++) {
             stock.children[0].remove();
         }
+        let mehsul;
         var content = String(this.innerText);
         content = content.toLowerCase();
+        if (content == "acer") {
+            mehsul = acer;
+        } else if (content == "asus") {
+            mehsul = asus;
+        } else if (content == "dell") {
+            mehsul = dell;
+        } else if (content == "hp") {
+            mehsul = hp;
+        } else if (content == "lenovo") {
+            mehsul = lenovo;
+        }
         for (var i = 0; i < 9; i++) {
             var col3 = document.createElement("div");
             col3.classList.add("col-3");
-            var button =document.createElement("button")
-            button.innerHTML="etrafli"
+            var button = document.createElement("button")
+            button.innerHTML = "etrafli"
             var stockItems = document.createElement("div");
             stockItems.classList.add("stock-items");
             var img = document.createElement("img");
@@ -1040,11 +818,11 @@ for (var i = 0; i < marka.length; i++) {
             var p3 = document.createElement("p");
             var p4 = document.createElement("p");
             var p5 = document.createElement("p");
-            p.innerHTML = `Adi:${asus[i].ad}`;
-            p2.innerHTML = `Tesviri:${asus[i].tesvir}`;
-            p3.innerHTML = `Qiymet:${asus[i].qiymet}`;
-            p4.innerHTML = `Yeni:${asus[i].yeni}`;
-            p5.innerHTML = `Telefon:${asus[i].telefon}`;
+            p.innerHTML = `Adi:${mehsul[i].ad}`;
+            p2.innerHTML = `Tesviri:${mehsul[i].tesvir}`;
+            p3.innerHTML = `Qiymet:${mehsul[i].qiymet}`;
+            p4.innerHTML = `Yeni:${mehsul[i].yeni}`;
+            p5.innerHTML = `Telefon:${mehsul[i].telefon}`;
             stockItems.appendChild(img);
             stockItems.appendChild(p);
             stockItems.appendChild(p2);
@@ -1062,8 +840,8 @@ for (var i = 0; i < marka.length; i++) {
 for (var i = 0; i < 9; i++) {
     var col3 = document.createElement("div");
     col3.classList.add("col-3");
-    var button =document.createElement("button")
-    button.innerHTML="etrafli"
+    var button = document.createElement("button")
+    button.innerHTML = "etrafli"
     var stockItems = document.createElement("div");
     stockItems.classList.add("stock-items");
     var img = document.createElement("img");
@@ -1113,8 +891,8 @@ input.addEventListener("keyup", function (e) {
                     for (var i = 0; i < 9; i++) {
                         var col3 = document.createElement("div");
                         col3.classList.add("col-3");
-                        var button =document.createElement("button")
-                        button.innerHTML="etrafli"
+                        var button = document.createElement("button")
+                        button.innerHTML = "etrafli"
                         var stockItems = document.createElement("div");
                         stockItems.classList.add("stock-items");
                         var img = document.createElement("img");
@@ -1124,11 +902,11 @@ input.addEventListener("keyup", function (e) {
                         var p3 = document.createElement("p");
                         var p4 = document.createElement("p");
                         var p5 = document.createElement("p");
-                        p.innerHTML = `Adi:${asus[i].ad}`;
-                        p2.innerHTML = `Tesviri:${asus[i].tesvir}`;
-                        p3.innerHTML = `Qiymet:${asus[i].qiymet}`;
-                        p4.innerHTML = `Yeni:${asus[i].yeni}`;
-                        p5.innerHTML = `Telefon:${asus[i].telefon}`;
+                        p.innerHTML = `Adi:`;
+                        p2.innerHTML = `Tesviri:`;
+                        p3.innerHTML = `Qiymet:`;
+                        p4.innerHTML = `Yeni:`;
+                        p5.innerHTML = `Telefon:`;
                         stockItems.appendChild(img);
                         stockItems.appendChild(p);
                         stockItems.appendChild(p2);
@@ -1160,8 +938,8 @@ input.addEventListener("keyup", function (e) {
                 for (var i = 0; i < 9; i++) {
                     var col3 = document.createElement("div");
                     col3.classList.add("col-3");
-                    var button =document.createElement("button")
-                    button.innerHTML="etrafli"
+                    var button = document.createElement("button")
+                    button.innerHTML = "etrafli"
                     var stockItems = document.createElement("div");
                     stockItems.classList.add("stock-items");
                     var img = document.createElement("img");
@@ -1171,11 +949,11 @@ input.addEventListener("keyup", function (e) {
                     var p3 = document.createElement("p");
                     var p4 = document.createElement("p");
                     var p5 = document.createElement("p");
-                    p.innerHTML = `Adi:${asus[i].ad}`;
-                    p2.innerHTML = `Tesviri:${asus[i].tesvir}`;
-                    p3.innerHTML = `Qiymet:${asus[i].qiymet}`;
-                    p4.innerHTML = `Yeni:${asus[i].yeni}`;
-                    p5.innerHTML = `Telefon:${asus[i].telefon}`;
+                    p.innerHTML = `Adi:`;
+                    p2.innerHTML = `Tesviri:`;
+                    p3.innerHTML = `Qiymet:`;
+                    p4.innerHTML = `Yeni:`;
+                    p5.innerHTML = `Telefon:`;
                     stockItems.appendChild(img);
                     stockItems.appendChild(p);
                     stockItems.appendChild(p2);
@@ -1210,8 +988,8 @@ input.addEventListener("keyup", function (e) {
                 for (var i = 0; i < 4; i++) {
                     var col3 = document.createElement("div");
                     col3.classList.add("col-3");
-                    var button =document.createElement("button")
-                    button.innerHTML="etrafli"
+                    var button = document.createElement("button")
+                    button.innerHTML = "etrafli"
                     var stockItems = document.createElement("div");
                     stockItems.classList.add("stock-items");
                     var img = document.createElement("img");
@@ -1221,16 +999,16 @@ input.addEventListener("keyup", function (e) {
                     var p3 = document.createElement("p");
                     var p4 = document.createElement("p");
                     var p5 = document.createElement("p");
-                    p.innerHTML = `Adi:${asus[i].ad}`;
-            p2.innerHTML = `Tesviri:${asus[i].tesvir}`;
-            p3.innerHTML = `Qiymet:${asus[i].qiymet}`;
-            p4.innerHTML = `Yeni:${asus[i].yeni}`;
-            p5.innerHTML = `Telefon:${asus[i].telefon}`;
+                    p.innerHTML = `Adi:`;
+                    p2.innerHTML = `Tesviri:`;
+                    p3.innerHTML = `Qiymet:`;
+                    p4.innerHTML = `Yeni:`;
+                    p5.innerHTML = `Telefon:`;
                     stockItems.appendChild(img);
-                    stockItems.appendChild(p);   
+                    stockItems.appendChild(p);
                     stockItems.appendChild(p2);
                     stockItems.appendChild(p3);
-          
+
                     stockItems.appendChild(p4);
                     stockItems.appendChild(p5);
                     stockItems.appendChild(button)
