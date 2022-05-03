@@ -34,11 +34,13 @@ $(document).ready(function() {
                   yoxla = true;
                   window.location.assign("heseab.html");
               }
-          }
       }
     
+    }
+
       if(!yoxla){
-          alert("bele bir istifadeci yoxdur!!!")
+        alert("bele bir istifadeci yoxdur!!!")
       }
+     
   })
 });

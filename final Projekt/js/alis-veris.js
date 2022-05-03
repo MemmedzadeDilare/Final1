@@ -805,7 +805,9 @@ for (var i = 0; i < marka.length; i++) {
         } else if (content == "lenovo") {
             mehsul = lenovo;
         }
+        $(".sp").removeClass("d-none")
         for (var i = 0; i < 9; i++) {
+          
             var col3 = document.createElement("div");
             col3.classList.add("col-3");
             var button = document.createElement("button")
@@ -833,9 +835,12 @@ for (var i = 0; i < marka.length; i++) {
             stockItems.appendChild(button)
             col3.appendChild(stockItems);
             stock.appendChild(col3);
+            // $(".sp").addClass("d-none")
+       
 
 
         }
+     
     })
 }
 for (var i = 0; i < 9; i++) {
@@ -871,8 +876,23 @@ for (var i = 0; i < 9; i++) {
 }
 $(".button").click(function(){
     $(".popup").removeClass("d-none");
-
-    
+    let mehsul;
+    var content = String(this.innerText);
+    content = content.toLowerCase();
+    if (content == "acer") {
+        mehsul = acer;
+    } else if (content == "asus") {
+        mehsul = asus;
+    } else if (content == "dell") {
+        mehsul = dell;
+    } else if (content == "hp") {
+        mehsul = hp;
+    } else if (content == "lenovo") {
+        mehsul = lenovo;
+    }
+    $(".ad").innerHTML=mehsul[$(this).index()].ad
+    // $(".modal-body p").eq(0).html(`Ad:<span>${mehsul[$(this).index()].ad}</span>`);
+    // $(".popup p").eq(1).html(`Qiymeti: <span>${arrItems[$(this).index()].price}AZN</span>`);
 })
 $("#exit").click(function(){
     $(".popup").addClass("d-none");
@@ -994,7 +1014,6 @@ input.addEventListener("keyup", function (e) {
                 for (var i = 0; i < stock_div.length; i++) {
                     stock.children[0].remove();
                 }
-          
                 var content = String(this.innerText);
                 content = content.toLowerCase();
                 for (var i = 0; i < 4; i++) {
