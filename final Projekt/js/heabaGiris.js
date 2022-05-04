@@ -21,6 +21,7 @@ $(document).ready(function() {
       $("#pass").addClass("is-valid")
     }
   })
+  
   var yoxla = false;
   $("#hesabagiris").submit(function(e) {
       e.preventDefault();

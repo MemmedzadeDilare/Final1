@@ -94,11 +94,18 @@ $(document).ready(function(){
 $("#hesabyarat").submit(function(e){
     e.preventDefault();
     if($("#ad").val()==""&&$("#telefon").val()==""&&$("#istifadeciAdi").val()==""&&$("#sifre").val()==""){
-      $("#ugurluQeydiyat").addClass("d-none")
       $("#ugursuzQeydiyat").removeClass("d-none")
+      setTimeout(()=>{    
+      $("#ugurluQeydiyat").addClass("d-none")
+      },200);
+
      }else if($("#ad").val()==""||$("#telefon").val()==""||$("#istifadeciAdi").val()==""||$("#sifre").val()==""){
-      $("#ugurluQeydiyat").addClass("d-none")
       $("#ugursuzQeydiyat").removeClass("d-none")
+
+      setTimeout(()=>{    
+        $("#ugurluQeydiyat").addClass("d-none")
+        },200);
+
     }else{
       let num = Number(localStorage.getItem("ID")) + 1;
       localStorage.setItem(`user${num}-name`, $("#ad").val());
