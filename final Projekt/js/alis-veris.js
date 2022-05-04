@@ -806,40 +806,40 @@ for (var i = 0; i < marka.length; i++) {
             mehsul = lenovo;
         }
         $(".sp").removeClass("d-none")
-        for (var i = 0; i < 9; i++) {
+        setTimeout(()=>{
+            for (var i = 0; i < 9; i++) {
           
-            var col3 = document.createElement("div");
-            col3.classList.add("col-3");
-            var button = document.createElement("button")
-            button.innerHTML = "etrafli"
-            var stockItems = document.createElement("div");
-            stockItems.classList.add("stock-items");
-            var img = document.createElement("img");
-            img.src = `img/${content}.jpg`;
-            var p = document.createElement("p");
-            var p2 = document.createElement("p");
-            var p3 = document.createElement("p");
-            var p4 = document.createElement("p");
-            var p5 = document.createElement("p");
-            p.innerHTML = `Adi:${mehsul[i].ad}`;
-            p2.innerHTML = `Tesviri:${mehsul[i].tesvir}`;
-            p3.innerHTML = `Qiymet:${mehsul[i].qiymet}`;
-            p4.innerHTML = `Yeni:${mehsul[i].yeni}`;
-            p5.innerHTML = `Telefon:${mehsul[i].telefon}`;
-            stockItems.appendChild(img);
-            stockItems.appendChild(p);
-            stockItems.appendChild(p2);
-            stockItems.appendChild(p3);
-            stockItems.appendChild(p4);
-            stockItems.appendChild(p5);
-            stockItems.appendChild(button)
-            col3.appendChild(stockItems);
-            stock.appendChild(col3);
-            // $(".sp").addClass("d-none")
-       
-
-
-        }
+                var col3 = document.createElement("div");
+                col3.classList.add("col-3");
+                var button = document.createElement("button")
+                button.innerHTML = "etrafli"
+                var stockItems = document.createElement("div");
+                stockItems.classList.add("stock-items");
+                var img = document.createElement("img");
+                img.src = `img/${content}.jpg`;
+                var p = document.createElement("p");
+                var p2 = document.createElement("p");
+                var p3 = document.createElement("p");
+                var p4 = document.createElement("p");
+                var p5 = document.createElement("p");
+                p.innerHTML = `Adi:${mehsul[i].ad}`;
+                p2.innerHTML = `Tesviri:${mehsul[i].tesvir}`;
+                p3.innerHTML = `Qiymet:${mehsul[i].qiymet}`;
+                p4.innerHTML = `Yeni:${mehsul[i].yeni}`;
+                p5.innerHTML = `Telefon:${mehsul[i].telefon}`;
+                stockItems.appendChild(img);
+                stockItems.appendChild(p);
+                stockItems.appendChild(p2);
+                stockItems.appendChild(p3);
+                stockItems.appendChild(p4);
+                stockItems.appendChild(p5);
+                stockItems.appendChild(button)
+                col3.appendChild(stockItems);
+                stock.appendChild(col3);
+        
+            }
+            $(".sp").addClass("d-none")
+        },500);  
      
     })
 }

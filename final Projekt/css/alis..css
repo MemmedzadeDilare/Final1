@@ -57,7 +57,12 @@ button{
     color: white;
 }
 
-
+#computer-search-input{
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    width: 100px;
+}
 
 
 .col-1 {
