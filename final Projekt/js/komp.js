@@ -67,6 +67,43 @@ function onNewComputer(){
     saveComputerModalElement.style.display = 'block';
     saveComputerHeaderMessage.innerHTML = 'Yeni';
 }
+function onEditComputer(computerId){
+    editMode = true;
+    selectedComputerId = computerId;
+    saveComputerModalElement.style.display = 'block';
+    saveComputerHeaderMessage.innerHTML = 'Redakte';
+    setTimeout(()=>{
+        var selectedComputer = {};
+        for(let i=0;i<computersGlobal.length;i++){
+            const c = computersGlobal[i];
+            if(computer.id == computerId){
+                selectedComputer = computer;
+                break;
+            }
+        }
+        computerCategoryElement.value = selectedComputer.categoryId;
+        computerNameElement.value = selectedComputer.name;
+        computerPriceElement.value = selectedComputer.price;
+        computerDescriptionElement.value = selectedComputer.description;
+        computerIsNew.value = selectedComputer.isNew;
+        computerImageInputElement.value = selectedComputer.imagePath;
+
+        var imageValue = selectedComputer.imagePath;
+        if(imageValue == ''){
+            computerImageShowElement.style.display = 'none';
+        } else{
+            computerImageShowElement.style.display = 'block';
+            computerImageShowElement.src = imageValue;
+        }
+
+        computerRam.value = selectedComputer.ram;
+        computerCpu.value = selectedComputer.cpu;
+        computerMemoryType.value = selectedComputer.driveType;
+        computerMemory.value = selectedComputer.drive;
+        computerOs.value = selectedComputer.os;
+        computerVideoCard.value = selectedComputer.videoCard;
+    }, 500);
+}
 
 var categories = [];
 var categoriesString = localStorage.getItem('categories');
@@ -222,43 +259,6 @@ function onDeleteComputer(computerId){
     }
 }
 
-function onEditComputer(computerId){
-    editMode = true;
-    selectedComputerId = computerId;
-    saveComputerModalElement.style.display = 'block';
-    saveComputerHeaderMessage.innerHTML = 'Redakte';
-    setTimeout(()=>{
-        var selectedComputer = {};
-        for(let i=0;i<computersGlobal.length;i++){
-            const c = computersGlobal[i];
-            if(computer.id == computerId){
-                selectedComputer = computer;
-                break;
-            }
-        }
-        computerCategoryElement.value = selectedComputer.categoryId;
-        computerNameElement.value = selectedComputer.name;
-        computerPriceElement.value = selectedComputer.price;
-        computerDescriptionElement.value = selectedComputer.description;
-        computerIsNew.value = selectedComputer.isNew;
-        computerImageInputElement.value = selectedComputer.imagePath;
-
-        var imageValue = selectedComputer.imagePath;
-        if(imageValue == ''){
-            computerImageShowElement.style.display = 'none';
-        } else{
-            computerImageShowElement.style.display = 'block';
-            computerImageShowElement.src = imageValue;
-        }
-
-        computerRam.value = selectedComputer.ram;
-        computerCpu.value = selectedComputer.cpu;
-        computerMemoryType.value = selectedComputer.driveType;
-        computerMemory.value = selectedComputer.drive;
-        computerOs.value = selectedComputer.os;
-        computerVideoCard.value = selectedComputer.videoCard;
-    }, 500);
-}
 
 function resetComputerForm(){
     computerImageShowElement.style.display = 'none';

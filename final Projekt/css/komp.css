@@ -1,6 +1,6 @@
 #save-computer-modal{
     display: none;
-    background-color: rgba(211, 211, 211, 0.284);
+    background-color: rgba(249, 244, 244, 0.364);
     position: fixed;
     left: 0;
     top: 0;
@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 img{
-    width: 50px;
+    width: 90px;
 }
 
 @keyframes save-computer-modal-animation{
@@ -87,7 +87,7 @@ img{
 
 #computer-image-modal{
     display: none;
-    background-color: thistle;
+    background-color: rgb(249, 74, 112);
     position: fixed;
     left: 0;
     top: 0;
@@ -106,46 +106,4 @@ img{
     position: relative;
     margin: auto;
     padding: 5px 10px;
-}
-
-@media screen and(min-width: 400px){
-    #computer-image-modal-content{
-        width: 75%;
-    }
-}
-
-@media screen and(min-width: 600px){
-    #computer-image-modal-content{
-        width: 70%;
-    }
-}
-
-@media screen and(min-width: 800px){
-    #computer-image-modal-content{
-        width: 65%;
-    }
-}
-
-@media screen and(min-width: 900px){
-    #computer-image-modal-content{
-        width: 60%;
-    }
-}
-
-@media screen and(min-width: 1000px){
-    #computer-image-modal-content{
-        width: 55%;
-    }
-}
-
-@media screen and(min-width: 1100px){
-    #computer-image-modal-content{
-        width: 50%;
-    }
-}
-
-@media screen and(min-width: 1300px){
-    #computer-image-modal-content{
-        width: 45%;
-    }
 }
